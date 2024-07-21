@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+/* flex-direction: */
+/* flex-direction: column;  makes divs go in aline of up to */
+/* flex-direction: column-reverse;can reverse divs */
+flex-direction: row;
+}
+
+.content{
+    border: 1px solid aqua;
+    margin: 0px 20px ;
+    padding: 20px;
+}
