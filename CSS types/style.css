@@ -6,6 +6,12 @@
 flex-direction: row;
 }
 
+.container-2{
+    display: flex;
+   justify-content: center; 
+   align-items:center;
+   /* height: 100vh; */
+}
 .content{
     border: 1px solid aqua;
     margin: 0px 20px ;
