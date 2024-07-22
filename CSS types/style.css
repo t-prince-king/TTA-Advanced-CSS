@@ -3,7 +3,7 @@
 /* flex-direction: */
 /* flex-direction: column;  makes divs go in aline of up to */
 /* flex-direction: column-reverse;can reverse divs */
-flex-direction: row;
+
 }
 
 .container-2{
@@ -12,8 +12,15 @@ flex-direction: row;
    align-items:center;
    /* height: 100vh; */
 }
+
+.container-3{
+    display: flex;
+    justify-content: center; 
+    align-items:center
+}
 .content{
+    width: 30%;
     border: 1px solid aqua;
-    margin: 0px 20px ;
-    padding: 20px;
+    margin: 5px 15px ;
+    padding: 0px 5px;
 }
