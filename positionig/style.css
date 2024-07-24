@@ -1,5 +1,45 @@
+.container{
+    display: flex;
+}
 .content{
     border: 1px solid aqua;
     margin: 5px 15px ;
     padding: 0px 5px;
+}
+.display-static{
+    border: 1.5px solid rgb(255, 255, 21);
+    background-color: aqua;
+    color: rgb(241, 238, 10);
+    position:static;
+    
+}
+.content-2{
+    border: 1.5px solid rgb(21, 255, 138);  
+}
+.display-Relactive{
+    border: 1.5px solid rgb(255, 255, 21);
+    background-color: aqua;
+    color: rgb(241, 238, 10); 
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.absolete-pos{
+    border: 1.5px solid rgb(255, 255, 21);
+    background-color: aqua;
+      position: absolute;
+    
+}
+
+.stickiy-pos{
+    position: sticky;
+    top: 0;
+
+}
+.fixed-pos{
+    position: fixed;
+    top: 20;
+    right:40px;
+    background-color: yellow;
+
 }
