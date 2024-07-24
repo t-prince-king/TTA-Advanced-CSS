@@ -1,0 +1,79 @@
+
+            .xx{text-align: center;}
+            .main-head{text-align: center; }
+            .p1{color: gray; font-size: 14px;}
+            .ii{color:gray; background-color: white ;}
+            .p5{color: gray; font-size: 14px;}
+            .member-cone{text-align: center;
+                border: 1px solid gray;
+                border-radius: 20px;
+                margin: 10px;
+                
+                
+            }  
+            .member-cone img{
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .member-cone h4{
+            font-weight: 400;
+            }
+            .about-us{
+               color: white; background-color:#176BE3; border: none; padding: 8px 16px;
+               border-radius: 7px;margin: 5px; 
+                }
+            .contact{color:gray; background-color: white ; border: none;padding: 8px 16px;
+                border-radius: 7px; border:1px solid gray;margin: 5px;}
+                .main-menber{
+                    display: flex;
+                    justify-content: center;
+                }
+    @media (max-width:600px) {
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .main-head{
+            text-align: center;
+        }
+        .main-menber{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .member-cone{
+            width: 59%;
+        }
+        .member-cone img{
+            width:100% ;
+            height: auto;
+        }
+    }
+   @media (min-width:600px) and (max-width:768px) {
+
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .main-head{
+        text-align: center;
+    }
+    .main-menber{
+        display: flex;
+        flex-wrap: wrap;
+    }
+   }
+   @media (min-width:768px) and (max-width:992px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .main-head{
+        text-align: center;
+    }
+   }
+   .main-menber{
+    display: flex;
+    flex-wrap: wrap;
+   }
