@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rellm{
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+}
+.rellm a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.from{
+    margin: 25px;
+}
+.from input{
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
+.from input:focus{
+    border: none;
+    background-color: yellow;
+}
+
+.rellm ul li:nth-child(even){
+   background-color:blue; 
+}
+#Pseund-elements p::before{
+    content: "Note:";
+    font-weight:bold ;
+    text-transform: uppercase;
+}
+#Pseund-elements p::after{
+    content:"(End of note)" ;
+    font-style: italic;
+    text-transform: uppercase;
+}
